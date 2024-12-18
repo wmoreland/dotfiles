@@ -22,16 +22,16 @@ blocks:
         template: " {{ .UserName }}@{{ .HostName }} "
         foreground: '#2e3440'
         background: '#88c0d0'
-      - type: path
-        style: powerline
-        powerline_symbol: "\ue0b0"
-        template: " {{ .PATH }} "
-        foreground: '#eceff4'
-        background: '#3b4252'
-        # properties:
-          # folder_separator_icon: "\uf115"
-          # folder_icon: " \ue0b1 "
-          # style: full
+      # - type: path
+      #   style: powerline
+      #   powerline_symbol: "\ue0b0"
+      #   template: " {{ .PATH }} "
+      #   foreground: '#eceff4'
+      #   background: '#3b4252'
+      #   properties:
+      #     folder_separator_icon: "\uf115"
+      #     folder_icon: " \ue0b1 "
+      #     style: full
       - type: git
         style: powerline
         powerline_symbol: "\ue0b0"
